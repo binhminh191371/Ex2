@@ -14,7 +14,7 @@
   display: none;
 }
 
-.wrap_header{
+.wrap_header {
   border-bottom: 1px solid var(--grayish-blue);
 }
 .container {
@@ -283,7 +283,6 @@
   line-height: 1.6;
   color: var(--grayish-blue);
 }
-
 
 .body_right-unit {
   font-weight: 900;

@@ -88,5 +88,4 @@ btnClose.addEventListener("click", () => {
 
 iconCart.addEventListener("click", () => {
   cartList.classList.toggle("isactive");
-  console.log("click");
 });
