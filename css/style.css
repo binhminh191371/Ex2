@@ -14,6 +14,9 @@
   display: none;
 }
 
+.wrap_header{
+  border-bottom: 1px solid var(--grayish-blue);
+}
 .container {
   margin-top: 30px;
 }
@@ -117,6 +120,7 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   cursor: default;
+  z-index: 999;
 }
 
 .infor_cart-title {
@@ -280,9 +284,6 @@
   color: var(--grayish-blue);
 }
 
-.body_right-price {
-  margin-bottom: 18px;
-}
 
 .body_right-unit {
   font-weight: 900;
