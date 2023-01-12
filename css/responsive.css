@@ -7,6 +7,9 @@
     column-gap: 30px;
   }
 
+  .header{
+    border-bottom: none;
+  }
   .infor_cart-list {
     right: 50%;
     transform: translate(25%);
@@ -18,9 +21,9 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: var(--grayish-blue);
+    background-color: var(--black);
     z-index: 998;
-    opacity: 0.5;
+    opacity: 0.5  ;
   }
 
   .bg_active,
@@ -99,8 +102,9 @@
 
   .body {
     display: flex;
-    margin: 50px 150px;
+   margin: 50px auto;
     column-gap: 70px;
+    padding: 0 60px;
   }
 
   .body_left {
