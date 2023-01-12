@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="wrap_header">
+          <div class="header">
+            <div class="wrap_logomenu">
+              <div class="humberger">
+                <img class="img_menu" src="./images/icon-menu.svg" alt="menu" />
+              </div>
+              <div class="logo">
+                <img src="./images/logo.svg" alt="logo" />
+              </div>
+              <ul class="menu">
+                <li class="menu_item-close">
+                  <img
+                    class="img_close"
+                    src="./images/icon-close.svg"
+                    alt="close"
+                  />
+                </li>
+                <li class="menu_item">
+                  <a class="menu_item-link" href="#">Collections</a>
+                </li>
+                <li class="menu_item">
+                  <a class="menu_item-link" href="#">Men</a>
+                </li>
+                <li class="menu_item">
+                  <a class="menu_item-link" href="#">Woman</a>
+                </li>
+                <li class="menu_item">
+                  <a class="menu_item-link" href="#">About</a>
+                </li>
+                <li class="menu_item">
+                  <a class="menu_item-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <div class="bg_humberger bg_active"></div>
+            </div>
+
+            <div class="wrap_info">
+              <div class="infor_cart infor-item">
+                <img src="./images/icon-cart.svg" alt="cart" />
+                <span>3</span>
+
+                <div class="infor_cart-list infor_cart-list--no-cart isactive">
+                  <h2 class="infor_cart-title">Cart</h2>
+
+                  <h5 class="infor_cart-body">Your cart is empty.</h5>
+                  <ul class="infor_cart-items">
+                    <li class="infor_cart-item">
+                      <img
+                        src="./images/image-product-1-thumbnail.jpg"
+                        class="infor_cart-item--img"
+                        alt=""
+                      />
+                      <div class="infor_cart-item--detail">
+                        <div class="infor_cart-item--name">
+                          Fall Limited Edition Sneakers
+                        </div>
+                        <div class="infor_cart-item--caculator">
+                          <div class="infor_cart-item--unit">$125.00 x</div>
+                          <div class="infor_cart-item--amount">3</div>
+                          <div class="infor_cart-item--total">$375.00</div>
+                        </div>
+                      </div>
+                      <img
+                        src="./images/icon-delete.svg"
+                        class="infor_cart-item--delete"
+                        alt=""
+                      />
+                    </li>
+                  </ul>
+                  <button class="infor_cart-item--checkout">Checkout</button>
+                </div>
+              </div>
+
+              <div class="infor_customer infor-item">
+                <img
+                  class="img_customer"
+                  src="./images/image-avatar.png"
+                  alt="avartar"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="body">
+          <div class="bodymobile_slide">
+            <div class="previous">
+              <img src="./images/icon-previous.svg" alt="previous" />
+            </div>
+
+            <div class="bodymobile_sliderWrap">
+              <div class="bodymobile_sliderMain">
+                <div class="bodymobile_sliderItem">
+                  <img src="./images/image-product-1.jpg" alt="prodcut1" />
+                </div>
+                <div class="bodymobile_sliderItem">
+                  <img src="./images/image-product-2.jpg" alt="product2" />
+                </div>
+                <div class="bodymobile_sliderItem">
+                  <img src="./images/image-product-3.jpg" alt="product3" />
+                </div>
+                <div class="bodymobile_sliderItem">
+                  <img src="./images/image-product-4.jpg" alt="product4" />
+                </div>
+              </div>
+            </div>
+
+            <div class="next">
+              <img src="./images/icon-next.svg" alt="next" />
+            </div>
+          </div>
+
+          <div class="body_left">
+            <div class="body_left-imgbig">
+              <img
+                class="img_big"
+                src="./images/image-product-1.jpg"
+                alt="product1"
+              />
+            </div>
+            <div class="body_left_imgs">
+              <div class="body_left-imgitem">
+                <img
+                  src="./images/image-product-1.jpg"
+                  alt="product1"
+                  class="img_product active"
+                />
+              </div>
+              <div class="body_left-imgitem">
+                <img
+                  src="./images/image-product-2.jpg"
+                  alt="product2"
+                  class="img_product"
+                />
+              </div>
+              <div class="body_left-imgitem">
+                <img
+                  src="./images/image-product-3.jpg"
+                  alt="product3"
+                  class="img_product"
+                />
+              </div>
+              <div class="body_left-imgitem">
+                <img
+                  src="./images/image-product-4.jpg"
+                  alt="product4"
+                  class="img_product"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="body_right">
+            <h5 class="body_right-nameCompany">SNEAKER COMPANY</h5>
+            <h1 class="body_right-nameProduct">
+              Fall Limited Edition Sneakers
+            </h1>
+            <p class="body_right-aboutProduct">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, in. Cupiditate vero doloribus rem temporibus
+              exercitationem.
+            </p>
+            <div class="wrap_price">
+              <div class="body_right-price">
+                <span class="body_right-unit">$125.00</span>
+                <span class="body_right-sale">50%</span>
+              </div>
+              <h6 class="body_right-priceOld">$250.00</h6>
+            </div>
+
+            <div class="body_right-footer">
+              <div class="body_right-changeAmount">
+                <button class="body_right-minus">
+                  <img src="./images/icon-minus.svg" alt="minus" />
+                </button>
+
+                <div class="body_right-quantity">0</div>
+                <button class="body_right-plus">
+                  <img src="./images/icon-plus.svg" alt="plus" />
+                </button>
+              </div>
+              <div class="wrap_btn">
+                <button class="body_right-AddToCart">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span>Add to cart</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
